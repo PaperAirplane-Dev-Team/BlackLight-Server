@@ -1,0 +1,14 @@
+{exec} = require('child_process')
+
+task 'build', 'Build BL Service', (options) ->
+	exec "coffee -o out -c .", (err, stdout, stderr) =>
+		throw err if err
+		console.log 'Files built'
+		exec "cp ./*.json ./out/", (err, stdout, stderr) =>
+			throw err if err
+			console.log 'Config files copied'
+
+task 'clean', 'Clean up', (options) ->
+	exec "rm -rf out", (err, stdout, stderr) =>
+		throw err if err
+		console.log 'Outdir removed'

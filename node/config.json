@@ -1,0 +1,17 @@
+{
+	"weibo":{
+		"accessToken": "WEIBO_ACCESS_TOKEN"
+	},
+	"github":{
+		"accessToken": "GITHUB_ACCESS_TOKEN",
+		"userAgent": "GITHUB_USER_AGENT"
+	},
+	"repo":{
+		"owner":"PaperAirplane-Dev-Team",
+		"name":"BlackLight"
+	},
+	"debug_repo":{
+		"owner":"blFeedbackBot",
+		"name":"IssuesTest"
+	}
+}

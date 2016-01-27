@@ -1,0 +1,17 @@
+{
+	"name": "bl-service",
+	"version": "1.0.0",
+	"description": "Weibo hook and issue collector for BlackLight",
+	"repository": {
+		"type":"git",
+		"url":"http://github.com/xavieryao/Bl-Service.git"
+	},
+	"dependencies":{
+		"restify":"*",
+		"request":">=2.45.0",
+		"ys-hash":"*"
+	},
+	"devDependencies": {
+		"coffee-script": ">=1.9.3"
+	}
+}
